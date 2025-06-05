@@ -45,7 +45,7 @@ const Navbar = () => {
                 onClick={() => setToggleMenu(false)}
               />
             </button>
-            <ul className="flex flex-col gap-4 text-white items-end justify-center">
+            <ul className="flex flex-col gap-4 text-white items-end justify-center mx-10">
               {navItems.map((item, index) => (
                 <li key={index} className="mx-4 my-2">
                   {item}
